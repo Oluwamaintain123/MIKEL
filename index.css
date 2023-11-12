@@ -49,7 +49,7 @@ header nav{
     flex-direction: column;
     align-items: center;
     padding-bottom: 3em;
-    background-image: var(--bgColor), url(../IMAGES/4.png);
+    background-image: var(--bgColor), url(./4.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ header nav{
             & .two .empty{
                 height: 20em;
                 width: 25em;
-                background-image: url('../IMAGES/4.png');
+                background-image: url('./4.png');
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -225,7 +225,7 @@ header nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: var(--bgColor), url('../IMAGES/4.png');
+    background-image: var(--bgColor), url('./4.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ header nav{
         height: 300px;
         width: 400px;
         border-radius: 100px;
-        background-image: url('../IMAGES/1.png');
+        background-image: url('./1.png');
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
@@ -313,7 +313,7 @@ header nav{
     flex-direction: column;
     align-items: center;
     padding: 5em 0;
-    background-image: var(--bgColor), url('../IMAGES/4.png');
+    background-image: var(--bgColor), url('./4.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -374,7 +374,7 @@ header nav{
             & .empty{
                 height: 14em;
                 width: 100%;
-                background-image: url('../IMAGES/2.png');
+                background-image: url('./2.png');
                 background-position: center;
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -408,7 +408,7 @@ header nav{
 
 #body6{
     display: flex;
-    background-image: var(--bgColor), url('../IMAGES/4.png');
+    background-image: var(--bgColor), url('./4.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
