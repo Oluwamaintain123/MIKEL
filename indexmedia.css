@@ -1,0 +1,330 @@
+@media (max-width:870px) {
+
+    header nav{
+        padding: 10px 17px;
+
+        & .logo{
+            font-size: 1.3em;
+        }
+
+        & ul{
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            top: 2.6em;
+            background-color: #444;
+            min-width: 70%;
+            min-height: 100vh;
+            left: -100%;
+
+        }
+
+        & .barss{
+            display: block;
+
+        }
+    }
+
+    header nav ul.active{
+        left: 0;
+        transition: .2s;
+    }
+
+    /* ===BODY=== */
+
+    #body{
+
+        & .disp1 button{
+            font-size: 1.2em;
+        }
+
+        & .disp2{
+            flex-direction: column;
+            margin: 0 2em;
+            /* position: none; */
+
+            & .cont{
+
+                & i{
+                    font-size: 1.4em;
+                }
+
+                & h3{
+                    font-size: 1.5em;
+                }
+
+                & p{
+                    letter-spacing: 1px;
+                    line-height: 1.2;
+                }
+            }
+        }
+    }
+
+    /* ===BODY1=== */
+
+    #body1{
+        padding-top: 24em;
+
+        & .flex{
+            
+            & .fle1{
+                flex-direction: column-reverse;
+                align-items: center;
+
+                & .one{
+                    align-items: center;
+
+                    & h3{
+                        font-size: 1.6em;
+                        text-align: center;
+                        padding-top: 1em;
+                        margin: 0;
+                        min-width: 100% !important;
+                    }
+
+                    & p{
+                        width: 98%;
+                        text-align: center;
+                        font-size: 1.2em;
+                    }
+
+                    & button{
+                        font-size: 1.3em;
+                    }
+                }
+
+                & .two .empty{
+                    height: 15em;
+                    width: 20em;
+                    margin: 0 auto;
+                }
+            }
+
+            
+        }
+
+        & .flex1{
+            
+            & .fle2{
+                flex-direction: column;
+                align-items: center;
+
+                & .two{
+                    align-items: center;
+
+                    & h3{
+                        font-size: 2em;
+                        text-align: center;
+                        padding-top: 1em;
+                        margin: 0;
+                        min-width: 100% !important;
+                    }
+
+                    & p{
+                        width: 98%;
+                        text-align: center;
+                        font-size: 1.2em;
+                    }
+
+                    & button{
+                        font-size: 1.3em;
+                    }
+                }
+
+                & .two .empty{
+                    height: 15em;
+                    width: 20em;
+                    margin: 0 auto;
+                }
+            }
+
+        }
+    }
+
+    /* ===BODY2=== */
+
+    #body2{
+
+        & .serve1{
+
+            & h2{
+                font-size: 2.4em;
+            }
+
+            & p{
+                text-align: center;
+            }
+        }
+
+        & .serve2{
+            flex-direction: column;
+
+            & .web{
+
+                & i{
+                    font-size: 2.4em;
+                }
+
+                & h3{
+                    font-size: 1.7em;
+                }
+
+                & p{
+                    padding: 0 0.2em;
+                }
+            }
+        }
+    }
+
+    /* ===BODY3=== */
+
+    #body3{
+        flex-direction: column;
+        padding: 2em 0;
+
+        & .one{
+            height: 200px;
+            width: 300px;
+        }
+
+        & .two{
+            margin: 0 auto;
+
+            & i{
+                font-size: 2.5em;
+            }
+
+            & p{
+                text-align: center;
+                font-size: 1.1em;
+            }
+
+            & h4{
+                margin: 0 auto;
+                font-weight: bolder;
+                -webkit-text-stroke: 1px #000;
+            }
+        }
+    }
+
+    /* ===BODY4=== */
+
+    #body4{
+
+        & h2{
+            text-align: center;
+        }
+
+        & p{
+            text-align: center;
+            font-size: 1.2em;
+            padding: 1em 0.4em;
+        }
+    }
+
+    /* ===BODY5=== */
+
+    #body5{
+
+        & .new1{
+
+            & h2{
+                font-size: 2.5em;
+            }
+
+            & p{
+                text-align: center;
+            }
+        }
+
+        & .new2{
+            flex-direction: column;
+
+            & .cont{
+
+                & h3{
+                    font-size: 1.9em;
+                }
+
+                & p{
+                    font-size: 1.3em;
+                    text-align: center;
+                }
+
+                & h4{
+                    font-size: 1.4em;
+                }
+            }
+        }
+    }
+
+
+    /* ===BODY6=== */
+
+    #body6{
+
+        flex-direction: column;
+
+        & .news{
+            padding-bottom: 2em;
+
+            & h3{
+                font-size: 1.9em;
+            }
+
+            & p{
+                font-size: 1.1em;
+            }
+
+            & .form{
+                flex-direction: column;
+                align-items: start;
+                
+                
+                & input{
+                    font-size: 1.1em;
+                    margin: 0 auto;
+
+                }
+
+                & button{
+                    font-size: 1.2em;
+                }
+            }
+
+            & i{
+                font-size: 1.4em;
+            }
+        }
+
+        & .links{
+            padding-bottom: 2em;
+
+            & h3{
+                font-size: 1.9em;
+            }
+
+            & ul li{
+                font-size: 1.2em;
+            }
+        }
+
+        & .contacts{
+
+            & h3{
+                font-size: 1.9em;
+            }
+
+            & h4{
+                font-size: 1.2em;
+                font-weight: bold;
+            }
+
+            & p{
+                font-size: 1.4em;
+                letter-spacing: 1.2px;
+            }
+        }
+    }
+}
